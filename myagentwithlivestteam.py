@@ -11,7 +11,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from vidgear.gears import CamGear
 
 # ====== Set Your Google Gemini API Key ======
-GOOGLE_API_KEY = "AIzaSyCR6My_ll1ACp09Z48z-YvWzg6IrRFrXss"  # Replace with your actual API key
+GOOGLE_API_KEY = ""  # Replace with your actual API key
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # ====== YouTube Stream Link ======
